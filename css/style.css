@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+}
+html,body{
+    height:100%;
+}
+.clear{
+    clear: both;
+}
+.center{
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 2%;
+}
+header{
+    padding: 40px 0;
+}
+
+header img.logo{
+    width: 150px; 
+    position: relative;
+    top: 4px; 
+}
+
+nav.desktop{
+    float: right;
+    margin-top: 2px;
+}
+
+nav.desktop li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+    list-style-position: none;
+}
+
+nav.desktop li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .6s;
+}
+nav.desktop li a:hover{
+    border-bottom: 1px solid white;
+}
+nav.desktop img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    margin: 0 20px;
+}
+section.baner{
+    background-image: url('../imagens/bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+
+    width: 100%;
+    height: 100vh;
+}
+main img.boys-logo{
+    margin-top: 40px;
+    max-width:40%;
+}
+
+.btn-temp{
+    padding: 20px 2%;
+
+}
+
+.btn-temp button{
+    width: 150px;
+    height: 60px;
+    background-color: rgba(16, 16, 92, 0.644);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .9s;
+}
+.btn-temp button:hover{
+    background-color: rgb(61, 61, 124);
+    border-bottom: 5px solid rgb(80, 80, 158);
+}
+
+.btn-temp button a{
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+
+}
+
+.sinopse{
+max-width: 700px;
+padding: 20px 2%;
+width: 100%;
+line-height: 22px;
+}
+.sinopse p{
+color: white;
+font-size: 17px;
+}
+
+.play{
+margin:40px 0;
+padding: 0;
+}
+.play button{
+    width: 200px;
+    height: 80px;
+    font-size: 16pt;
+}
+
+.card-img{
+     position: absolute;
+     bottom: 20px;
+     display: flex;
+     align-items: center;
+     margin-left: 23em;
+     margin-top:1.5em;
+}
+.card{
+    height: 180px;
+    max-width: 300px;
+    box-shadow: 12px 0 32px 2px rgb(27, 26, 27);
+    margin-left: -120px;
+    transition: all 0.25s ease-in-out;
+    overflow: hidden;
+
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-16px) rotate(3deg);
+}
+
+.card:hover ~.card{
+    transform: translateX(140px);
+
+}
+
+
+@media screen and(max-width = 1200px){
+
+}
